@@ -1,0 +1,45 @@
+# Binaries and build artifacts
+bin/
+build/
+dist/
+out/
+tmp/
+
+# Go build outputs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Coverage
+coverage.out
+coverage.html
+*.cover
+*.covers
+*.coverprofile
+*.cov
+*.lcov
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Live reload tools
+.air.toml
+.air/
+.reflex
+
+# IDE/editor
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
